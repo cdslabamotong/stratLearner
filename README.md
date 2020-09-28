@@ -4,6 +4,7 @@ Code for StratLearner.
 StratLearner: Learning a Strategy for Misinformation Prevention in Social Network, NeurIPS 2020, to appear
 
 Please download data at http://udel.edu/~amotong/papers/stratLearner/
+
 The folder "data" contains three datasets: pro, power768 and ER512.
 
 Each dataset contains the following files:
