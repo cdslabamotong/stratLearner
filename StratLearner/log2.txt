@@ -1,0 +1,523 @@
+data fetched
+Training 1-slack dual structural SVM
+iteration 0
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 112.611111 difference to last: 113.611111
+self._find_new_constraint Done
+1 support vectors out of 402 points
+cutting plane objective: 270.451746, primal objective 304.050000
+iteration 1
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 102.997149 difference to last: 15.273631
+self._find_new_constraint Done
+94 support vectors out of 403 points
+cutting plane objective: 296.498871, primal objective 311.690555
+iteration 2
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 107.078818 difference to last: 0.061037
+self._find_new_constraint Done
+87 support vectors out of 404 points
+cutting plane objective: 296.618449, primal objective 296.663939
+iteration 3
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 107.117003 difference to last: 0.010653
+self._find_new_constraint Done
+72 support vectors out of 405 points
+cutting plane objective: 296.626983, primal objective 296.647459
+iteration 4
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 107.115507 difference to last: 0.002913
+self._find_new_constraint Done
+73 support vectors out of 406 points
+cutting plane objective: 296.629462, primal objective 296.634885
+iteration 5
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 107.116132 difference to last: 0.001708
+self._find_new_constraint Done
+70 support vectors out of 407 points
+cutting plane objective: 296.630251, primal objective 296.634095
+iteration 6
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 107.115737 difference to last: 0.000735
+new constraint too weak.
+no additional constraints
+final primal objective: 296.632240 gap: 0.001990
+data fetched
+Training 1-slack dual structural SVM
+iteration 0
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=1,
+             model=StratLearn, size_joint_feature: 1, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 110.992593 difference to last: 111.992593
+self._find_new_constraint Done
+2 support vectors out of 3 points
+cutting plane objective: 0.032019, primal objective 299.680000
+final primal objective: 203.751218 gap: 203.719199
+Prediction Started
+Testing Started
+kro
+StratLearner
+error_abs: 11.236487268518518 +- 5.411948054118491
+error_ratio: 0.3677440860143195 +- 0.21100548148899503
+reduce_percent_opt: 0.6064509294795893 +- 0.06236700632912895
+reduce_percent_pre: 0.4690310039557209 +- 0.06964931856328024
+com_to_opt: 0.7742957920273719 +- 0.08970028512655347
+featureNum:1, featureGenMethod: uniform_structure1-0, c:0.01 balance_para: 1000
+trainNum:270, testNum:270, infTimes:1024 
+loss_type:area, LAI_method:fastLazy, 
+===============================================================
+data fetched
+Training 1-slack dual structural SVM
+iteration 0
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 112.885185 difference to last: 113.885185
+self._find_new_constraint Done
+2 support vectors out of 402 points
+cutting plane objective: 0.005757, primal objective 304.790000
+iteration 1
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 55.485755 difference to last: 55.485755
+self._find_new_constraint Done
+2 support vectors out of 403 points
+cutting plane objective: 0.020921, primal objective 149.817297
+iteration 2
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 0.590627 difference to last: 0.590627
+self._find_new_constraint Done
+2 support vectors out of 404 points
+cutting plane objective: 0.021101, primal objective 1.615613
+iteration 3
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 0.007092 difference to last: 0.007092
+self._find_new_constraint Done
+3 support vectors out of 405 points
+cutting plane objective: 0.021102, primal objective 0.040250
+iteration 4
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: -0.001599 difference to last: -0.001599
+new constraint too weak.
+no additional constraints
+final primal objective: 25.424474 gap: 25.403372
+Prediction Started
+Testing Started
+kro
+StratLearner
+error_abs: 0.6329137731481481 +- 1.0239618247154432
+error_ratio: 0.01996329643982828 +- 0.03712017085746149
+reduce_percent_opt: 0.623081877081578 +- 0.067096351079393
+reduce_percent_pre: 0.6154737911601622 +- 0.07023715788984312
+com_to_opt: 0.9870882414604689 +- 0.0248300803902257
+featureNum:400, featureGenMethod: WC_Weibull_structure, c:0.01 balance_para: 1000
+trainNum:270, testNum:270, infTimes:1024 
+loss_type:area, LAI_method:fastLazy, 
+===============================================================
+data fetched
+Training 1-slack dual structural SVM
+iteration 0
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=1,
+             model=StratLearn, size_joint_feature: 1, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 85.877778 difference to last: 86.877778
+self._find_new_constraint Done
+2 support vectors out of 3 points
+cutting plane objective: 0.448980, primal objective 231.870000
+final primal objective: 108.681090 gap: 108.232110
+Prediction Started
+Testing Started
+power768
+StratLearner
+error_abs: 4.195337818287037 +- 5.396763949802017
+error_ratio: 0.19350349911882092 +- 0.21694319128856768
+reduce_percent_opt: 0.4470544925252914 +- 0.13765921904576767
+reduce_percent_pre: 0.3549178408158407 +- 0.13275462365663385
+com_to_opt: 0.7858506712641523 +- 0.14277117044693016
+featureNum:1, featureGenMethod: uniform_structure1-0, c:0.01 balance_para: 1000
+trainNum:270, testNum:270, infTimes:1024 
+loss_type:area, LAI_method:fastLazy, 
+===============================================================
+data fetched
+data fetched
+Training 1-slack dual structural SVM
+iteration 0
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=1,
+             model=StratLearn, size_joint_feature: 1, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 25.240741 difference to last: 26.240741
+self._find_new_constraint Done
+2 support vectors out of 3 points
+cutting plane objective: 2.178389, primal objective 68.150000
+final primal objective: 20.015065 gap: 17.836677
+Prediction Started
+Testing Started
+ER512
+StratLearner
+error_abs: 3.214384403935185 +- 2.0696816332760584
+error_ratio: 0.2177225326754137 +- 0.10136574435352849
+reduce_percent_opt: 0.4577864136093674 +- 0.0879070206115996
+reduce_percent_pre: 0.338754315205077 +- 0.12287768511637229
+com_to_opt: 0.7166801490765532 +- 0.17219640331064423
+featureNum:1, featureGenMethod: uniform_structure1-0, c:0.01 balance_para: 1000
+trainNum:270, testNum:270, infTimes:1024 
+loss_type:area, LAI_method:fastLazy, 
+===============================================================
+data fetched
+data fetched
+Training 1-slack dual structural SVM
+iteration 0
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 81.207407 difference to last: 82.207407
+self._find_new_constraint Done
+1 support vectors out of 402 points
+cutting plane objective: 197.252147, primal objective 219.260000
+iteration 1
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 71.925185 difference to last: 7.019890
+self._find_new_constraint Done
+31 support vectors out of 403 points
+cutting plane objective: 211.362824, primal objective 216.205852
+iteration 2
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 75.411584 difference to last: 0.053895
+self._find_new_constraint Done
+14 support vectors out of 404 points
+cutting plane objective: 211.415757, primal objective 211.508454
+iteration 3
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 75.414592 difference to last: 0.017730
+self._find_new_constraint Done
+15 support vectors out of 405 points
+cutting plane objective: 211.435615, primal objective 211.463641
+iteration 4
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 75.416725 difference to last: 0.005147
+self._find_new_constraint Done
+20 support vectors out of 406 points
+cutting plane objective: 211.438451, primal objective 211.449541
+iteration 5
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 75.416984 difference to last: 0.003269
+self._find_new_constraint Done
+15 support vectors out of 407 points
+cutting plane objective: 211.439915, primal objective 211.447405
+iteration 6
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 75.416257 difference to last: 0.001503
+self._find_new_constraint Done
+28 support vectors out of 408 points
+cutting plane objective: 211.440157, primal objective 211.443980
+iteration 7
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 75.415888 difference to last: 0.000902
+new constraint too weak.
+no additional constraints
+final primal objective: 211.442741 gap: 0.002584
+Prediction Started
+Testing Started
+power768
+StratLearner
+error_abs: 6.625119357638889 +- 14.915037850587652
+error_ratio: 0.2034630441385544 +- 0.38850546179953366
+reduce_percent_opt: 0.43503576104610453 +- 0.13256653065929888
+reduce_percent_pre: 0.354491642858866 +- 0.10609506987978216
+com_to_opt: 0.8445854350056367 +- 0.19585257956225913
+featureNum:400, featureGenMethod: uniform_structure0-01, c:0.01 balance_para: 1000
+trainNum:270, testNum:270, infTimes:1024 
+loss_type:area, LAI_method:fastLazy, 
+===============================================================
+data fetched
+Training 1-slack dual structural SVM
+iteration 0
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 87.759259 difference to last: 88.759259
+self._find_new_constraint Done
+2 support vectors out of 402 points
+cutting plane objective: 0.020136, primal objective 236.950000
+iteration 1
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 16.630491 difference to last: 16.630491
+self._find_new_constraint Done
+2 support vectors out of 403 points
+cutting plane objective: 0.030628, primal objective 44.922463
+iteration 2
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 0.000251 difference to last: 0.000251
+new constraint too weak.
+no additional constraints
+final primal objective: 85.967152 gap: 85.936524
+Prediction Started
+Testing Started
+power768
+StratLearner
+error_abs: 0.012199797453703703 +- 0.12623913760798913
+error_ratio: 0.0006306356094640999 +- 0.004739218376572639
+reduce_percent_opt: 0.43897667499116977 +- 0.14013284374242657
+reduce_percent_pre: 0.43863664207198855 +- 0.1401418258978974
+com_to_opt: 0.9976435474447453 +- 0.006417049071915286
+featureNum:400, featureGenMethod: WC_Weibull_structure, c:0.01 balance_para: 1000
+trainNum:270, testNum:270, infTimes:1024 
+loss_type:area, LAI_method:fastLazy, 
+===============================================================
+data fetched
+Training 1-slack dual structural SVM
+iteration 0
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 26.477778 difference to last: 27.477778
+self._find_new_constraint Done
+2 support vectors out of 402 points
+cutting plane objective: 40.119547, primal objective 71.490000
+iteration 1
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 10.333832 difference to last: 7.093425
+self._find_new_constraint Done
+23 support vectors out of 403 points
+cutting plane objective: 55.193730, primal objective 59.271799
+iteration 2
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 14.409480 difference to last: 0.002999
+self._find_new_constraint Done
+23 support vectors out of 404 points
+cutting plane objective: 55.200839, primal objective 55.201867
+iteration 3
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 14.411740 difference to last: 0.000000
+new constraint too weak.
+no additional constraints
+final primal objective: 55.200859 gap: 0.000020
+Prediction Started
+Testing Started
+ER512
+StratLearner
+error_abs: 2.545793547453704 +- 3.3987431525443155
+error_ratio: 0.15818214610389983 +- 0.1959138722617269
+reduce_percent_opt: 0.46682681589168745 +- 0.09084575873465023
+reduce_percent_pre: 0.3917277728817635 +- 0.08790040229928231
+com_to_opt: 0.8487947644894671 +- 0.14263130805276567
+featureNum:400, featureGenMethod: uniform_structure0-01, c:0.01 balance_para: 1000
+trainNum:270, testNum:270, infTimes:1024 
+loss_type:area, LAI_method:fastLazy, 
+===============================================================
+data fetched
+Training 1-slack dual structural SVM
+iteration 0
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 24.925926 difference to last: 25.925926
+self._find_new_constraint Done
+2 support vectors out of 402 points
+cutting plane objective: 0.004667, primal objective 67.300000
+iteration 1
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 5.583208 difference to last: 5.583208
+self._find_new_constraint Done
+2 support vectors out of 403 points
+cutting plane objective: 0.007746, primal objective 15.079329
+iteration 2
+OneSlackSSVM(C=0.01, break_on_bad=False, cache_tol='auto',
+             check_constraints=False, inactive_threshold=1e-05,
+             inactive_window=50, inference_cache=0, logger=None, max_iter=30,
+             model=StratLearn, size_joint_feature: 400, n_jobs=90,
+             negativity_constraint=None, pooling=None, show_loss_every=0,
+             switch_to=None, tol=0.001, verbose=3)
+self._find_new_constraint RUNNING
+New violation: 0.000050 difference to last: 0.000050
+new constraint too weak.
+no additional constraints
+final primal objective: 5.785767 gap: 5.778020
+Prediction Started
+Testing Started
+ER512
+StratLearner
+error_abs: 0.006090856481481482 +- 0.05391313050091467
+error_ratio: 0.00022021678098182003 +- 0.004177709100364312
+reduce_percent_opt: 0.45704183726234776 +- 0.09433312497317582
+reduce_percent_pre: 0.4569479704171792 +- 0.0942590079807901
+com_to_opt: 0.9985545992795108 +- 0.005324960875126265
+featureNum:400, featureGenMethod: WC_Weibull_structure, c:0.01 balance_para: 1000
+trainNum:270, testNum:270, infTimes:1024 
+loss_type:area, LAI_method:fastLazy, 
+===============================================================
