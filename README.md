@@ -1,5 +1,7 @@
 # stratLearner
-Code for StratLearner
+Code for StratLearner.
+
+StratLearner: Learning a Strategy for Misinformation Prevention in Social Network, NeurIPS 2020, to appear
 
 The folder "data" contains three datasets: pro, power768 and ER512.
 
