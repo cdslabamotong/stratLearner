@@ -1,7 +1,7 @@
 # stratLearner
 Code for StratLearner.
 
-StratLearner: Learning a Strategy for Misinformation Prevention in Social Network, NeurIPS 2020, to appear
+StratLearner: Learning a Strategy for Misinformation Prevention in Social Network, NeurIPS 2020
 
 Video: https://studio.slideslive.com/web_recorder/share/20201012T011526Z__NeurIPS_posters__16890__stratlearner-learning-a-strat?s=edcd5628-9f33-4454-a324-898e5edf660c
 
