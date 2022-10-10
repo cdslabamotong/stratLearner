@@ -5,7 +5,7 @@ StratLearner: Learning a Strategy for Misinformation Prevention in Social Networ
 
 Video: https://studio.slideslive.com/web_recorder/share/20201012T011526Z__NeurIPS_posters__16890__stratlearner-learning-a-strat?s=edcd5628-9f33-4454-a324-898e5edf660c
 
-Please download data at http://udel.edu/~amotong/papers/stratLearner/
+Please download data at http://udel.edu/~amotong/dataset/stratLearner/
 
 The folder "data" contains three datasets: pro, power768 and ER512.
 
